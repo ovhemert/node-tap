@@ -9,6 +9,9 @@ os:
   - linux
   - windows
 
+env:
+  - TAP_SNAPSHOT=1
+  
 cache:
   directories:
     - $HOME/.npm
